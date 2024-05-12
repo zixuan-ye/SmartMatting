@@ -1,0 +1,14 @@
+easydict
+einops
+matplotlib
+numpy
+omegaconf
+opencv_contrib_python
+opencv_python
+opencv_python_headless
+Pillow
+scikit_learn
+torch==2.0.0
+torchvision
+fvcore
+gradio
