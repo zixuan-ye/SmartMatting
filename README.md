@@ -1,8 +1,6 @@
 
 ## ___***[CVPR2024] Unifying Automatic and Interactive Matting with Pretrained ViTs***___
 
-
-
 ## ⚙️ Setup
 
 ### Install Environment via Anaconda (Recommended)
@@ -14,10 +12,14 @@ pip install -r requirements.txt
 ```
 
 
+
+
+
 ## 💫 Inference 
 ### Local Gradio demo
 
 1. Download the pretrained models  and put them in the './ckpt' dir.
+Download it from [GoogleDrive](https://drive.google.com/file/d/1vI1ujNqQKaJ2KJ5d10mUcPftHckATpoQ/view?usp=drive_link) or [BaiduYunPan](https://pan.baidu.com/s/19KqvDztD5manMvk3j_q13A?pwd=0apd)
 2. Input the following commands in terminal.
 ```bash
   sh app_inference.sh
