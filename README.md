@@ -28,7 +28,7 @@ Download it from [GoogleDrive](https://drive.google.com/file/d/1vI1ujNqQKaJ2KJ5d
 ```
 
 **Example**
-<video src="https://github.com/zixuan-ye/SmartMatting/assets/54745326/8100bb30-7241-4d97-8436-2d0ce8bfe382">How to use SMat</video>
+<video src="assets/gradio_demo.mp4">How to use SMat</video>
 
 ### Inference Matting Datasets
 
