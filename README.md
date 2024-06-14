@@ -28,9 +28,7 @@ Download it from [GoogleDrive](https://drive.google.com/file/d/1vI1ujNqQKaJ2KJ5d
 ```
 
 **Example**
-<video width="320" height="240" controls>
-  <source src="assets/gradio_demo.mp4" type="video/mp4">
-</video>
+<p align="center"><video src="assets/gradio_demo.mp4" width="300" title="Automatic"/></p>
 
 ### Inference Matting Datasets
 
