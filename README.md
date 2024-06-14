@@ -37,6 +37,9 @@ Download it from [GoogleDrive](https://drive.google.com/file/d/1vI1ujNqQKaJ2KJ5d
 3. Run the following command.
 ```bash
   sh inference_dataset.sh
+
+
+
 ```
 
 
