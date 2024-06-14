@@ -1,7 +1,7 @@
 
 ## ___***[CVPR2024] Unifying Automatic and Interactive Matting with Pretrained ViTs***___
 
-<p align="center"><img src="assets/auto.gif" title="Automatic"/><img src="inter.gif"  title="Interactive"/></p>
+<p align="center"><img src="assets/auto.gif" title="Automatic"/><img src="assets/inter.gif"  title="Interactive"/></p>
 
 ## ⚙️ Setup
 
