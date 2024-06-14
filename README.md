@@ -1,7 +1,7 @@
 
 ## ___***[CVPR2024] Unifying Automatic and Interactive Matting with Pretrained ViTs***___
 
-<p align="center"><img src="assets/auto.gif" width="400" title="Automatic"/><img src="assets/inter.gif" width="400" title="Interactive"/></p>
+<p align="center"><img src="assets/auto.gif" width="300" title="Automatic"/><img src="assets/inter.gif" width="400" title="Interactive"/></p>
 
 ## ⚙️ Setup
 
@@ -26,6 +26,9 @@ Download it from [GoogleDrive](https://drive.google.com/file/d/1vI1ujNqQKaJ2KJ5d
 ```bash
   sh app_inference.sh
 ```
+
+**Example**
+<video src="https://github.com/zixuan-ye/SmartMatting/assets/54745326/8100bb30-7241-4d97-8436-2d0ce8bfe382">How to use SMat</video>
 
 ### Inference Matting Datasets
 
