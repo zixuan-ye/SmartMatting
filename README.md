@@ -28,7 +28,9 @@ Download it from [GoogleDrive](https://drive.google.com/file/d/1vI1ujNqQKaJ2KJ5d
 ```
 
 **Example**
-<video src="assets/gradio_demo.mp4">How to use SMat</video>
+<video width="320" height="240" controls>
+  <source src="assets/gradio_demo.mp4" type="video/mp4">
+</video>
 
 ### Inference Matting Datasets
 
@@ -37,9 +39,6 @@ Download it from [GoogleDrive](https://drive.google.com/file/d/1vI1ujNqQKaJ2KJ5d
 3. Run the following command.
 ```bash
   sh inference_dataset.sh
-
-
-
 ```
 
 
