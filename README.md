@@ -1,6 +1,8 @@
 
 ## ___***[CVPR2024] Unifying Automatic and Interactive Matting with Pretrained ViTs***___
 
+<p align="center"><img src="assets/auto.gif" title="Automatic"/><img src="inter.gif"  title="Interactive"/></p>
+
 ## ⚙️ Setup
 
 ### Install Environment via Anaconda (Recommended)
@@ -18,11 +20,20 @@ pip install -r requirements.txt
 ## 💫 Inference 
 ### Local Gradio demo
 
-1. Download the pretrained models  and put them in the './ckpt' dir.
+1. Download the pretrained models and put them in the './ckpt' dir.
 Download it from [GoogleDrive](https://drive.google.com/file/d/1vI1ujNqQKaJ2KJ5d10mUcPftHckATpoQ/view?usp=drive_link) or [BaiduYunPan](https://pan.baidu.com/s/19KqvDztD5manMvk3j_q13A?pwd=0apd)
 2. Input the following commands in terminal.
 ```bash
   sh app_inference.sh
+```
+
+### Inference Matting Datasets
+
+1. Modify L27-44 in inference_dataset.py with the correct path
+2. Modify the benchmark you want to validate in inference_dataset.sh
+3. Run the following command.
+```bash
+  sh inference_dataset.sh
 ```
 
 

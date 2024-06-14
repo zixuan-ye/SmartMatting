@@ -40,10 +40,8 @@ CONFIG.benchmark.rw100_img = '/path/to/data/RefMatte_RW_100/image_copy'
 CONFIG.benchmark.rw100_alpha = '/path/to/data/RefMatte_RW_100/mask'
 CONFIG.benchmark.rw100_text = '/path/to/data/RefMatte_RW_100/refmatte_rw100_label.json'
 CONFIG.benchmark.rw100_index = '/path/to/data/RefMatte_RW_100/eval_index_expression.json'
-# CONFIG.benchmark.aim_img = '/path/to/data/AIM-500/original'
-# CONFIG.benchmark.aim_alpha = '/path/to/data/AIM-500/mask'
-CONFIG.benchmark.aim_img = '/data4/yezixuan/Combined_Dataset/AIM-500/original'
-CONFIG.benchmark.aim_alpha = '/data4/yezixuan/Combined_Dataset/AIM-500/mask'
+CONFIG.benchmark.aim_img = '/path/to/data/AIM-500/original'
+CONFIG.benchmark.aim_alpha = '/path/to/data/AIM-500/mask'
 
 # Dataloader config
 CONFIG.data = EasyDict({})

@@ -113,9 +113,7 @@ if __name__=='__main__':
             print(output.shape)
             output = torch.nn.functional.interpolate(output, [input_x.shape[0], input_x.shape[1]])
             output = output.flatten(0, 2)
-            # output = output_['phas']
             output = (output*255).detach().cpu().numpy().astype('uint8')
-            # h,w = model.features.shape[-2:]
             sim = (output_['sim']*255).squeeze().squeeze().detach().cpu().numpy().astype('uint8')
             sim_mask = (((sim>128).astype('float'))*255).astype('uint8')
 
